@@ -1,0 +1,27 @@
+{
+  "name": "pg-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "dev": "nodemon dist/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/pg": "^8.11.5",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
